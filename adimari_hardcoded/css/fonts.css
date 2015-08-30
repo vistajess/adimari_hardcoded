@@ -1,0 +1,72 @@
+@font@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: GothamBold;
+    src: url("../fonts/GothamBold.ttf");
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url("../fonts/GothamLight.ttf");
+}
+
+@font-face {
+    font-family: GothamMedium;
+    src: url("../fonts/GothamMedium.ttf");
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url("../fonts/GothamBook.ttf");
+}
+
+@font-face {
+    font-family: 'gotham-black';
+    src: url('font/gotham-black.eot');
+    src: url('font/gotham-black.woff') format('woff'), url('font/gotham-black.ttf') format('truetype'), url('font/gotham-black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham-light';
+    src: url('font/gotham-light.eot');
+    src: url('font/gotham-light.woff') format('woff'), url('font/gotham-light.ttf') format('truetype'), url('font/gotham-light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham-medium';
+    src: url('font/ufonts.com_gotham-medium.eot');
+    src: url('font/ufonts.com_gotham-medium.woff') format('woff'), url('font/ufonts.com_gotham-medium.ttf') format('truetype'), url('font/ufonts.com_gotham-medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('font/GothamBook.eot');
+    src: url('font/GothamBook.woff') format('woff'), url('font/GothamBook.ttf') format('truetype'), url('font/GothamBook.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'gotham-black';
+        src: url('font/gotham-black.svg') format('svg');
+    }
+}
+
+
+/*FIX FONT FOR GOOGLE CHROME ON WINDOWS*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'gotham-black';
+        src: url('font/gotham-black.svg') format('svg');
+    }
+}

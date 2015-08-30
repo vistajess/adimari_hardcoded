@@ -1,0 +1,202 @@
+body { font-family: 'Raleway', sans-serif; color: #000; }
+
+ul { padding-left: 0px; }
+
+li { list-style: none; }
+
+a, a:hover { text-decoration: none; }
+
+.loader-holder { width: 100%; height: 100%; background-color: white; position: fixed; z-index: 9999999; }
+
+.circle { height: 200px; width: 200px; border-radius: 160px; background: white; border: 8px solid rgba(0, 0, 0, 0.27); border-top-color: #000; animation: circle-spin 1s linear infinite; -webkit-animation: circle-spin 1s linear infinite; }
+
+.loader-logo { width: 170px; height: auto; position: relative; bottom: 119px; left: 20px; }
+
+.loader-container { position: absolute; left: 50%; top: 50%; margin: -100px 0px 0px -100px; z-index: 100; display: block;     /*    margin: 0px auto; display: block;
+*/ }
+
+@-webkit-keyframes circle-spin { 100% { -webkit-transform: rotate(360deg); } }
+@-moz-keyframes circle-spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes circle-spin { 100% { -webkit-transform: rotate(360deg); } }
+.banner-header { color: #fff; font-size: 51px; font-family: gotham-black; font-weight: normal; line-height: normal !important; }
+
+.banner-desc { display: block !important; font-size: 22px; line-height: 24px; position: relative !important; color: #ffffff; font-family: "Gothambook"; }
+
+.text-table-wrap { height: 520px; display: table; width: 75%; }
+
+.home-banner-content { display: table-cell; vertical-align: middle; text-align: center; }
+
+.button-home { background: #424242 none repeat scroll 0 0; border: medium none !important; color: #ffffff; font-family: "gotham-medium"; font-size: 20px; padding: 13px 60px; text-transform: uppercase; width: auto; display: block; margin: 20px auto; width: 240px; -webkit-transition: color, background 0.3s linear; -moz-transition: color, background 0.3s linear; -o-transition: color, background 0.3s linear; transition: color, background 0.3s linear; }
+.button-home:hover { background: #2c2c2d; text-decoration: none; color: #ffffff; }
+
+.content-header { color: #626262; font-size: 46px; text-transform: uppercase; font-family: 'gotham-black', arial, sans-serif; display: block; }
+
+.content-subheader { margin: 0 auto 35px; color: #626262; font-size: 28px; text-transform: uppercase; font-family: 'gotham-light', arial, sans-serif; display: block; }
+
+.navbar { margin: 20px 0px; }
+
+.navbar-nav { position: relative; top: 20px; margin-left: 30px; }
+
+.navbar-nav > li > a { color: #000 !important; text-transform: uppercase; line-height: 20px; font-size: 12px !important; border-bottom: 3px solid #fff; padding: 9px 12px; }
+
+.category-nav > li > a:hover { border-bottom-color: #000; }
+
+.nav > li > a:focus, .nav > li > a:hover { text-decoration: none; background-color: #FFF; }
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus { border-color: rgba(82, 168, 236, 0.8); outline: 0px none; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6); }
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { background-color: #FFF; border: 1px solid #CCC; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset; transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; }
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { display: inline-block; height: 20px; padding: 4px 6px; margin-bottom: 10px; font-size: 14px; line-height: 20px; color: #555; vertical-align: middle; border-radius: 4px; }
+
+.d_account_sub_holder { background: #FFF none repeat scroll 0% 0%; border: 1px solid #D0D0D0; padding: 12px; position: absolute; z-index: 10; right: -1px; margin-top: 0px; }
+
+.category-nav > li { display: inline-block; position: relative; }
+
+.category-nav > li:hover .subcategory-nav { display: block; }
+
+.subcategory-nav { display: none; position: absolute; top: 53px; left: 0; border-radius: 0px; }
+.subcategory-nav > li > a { color: #000; }
+
+.how-it-works { margin: 25px 0px; }
+
+.steps-how { font-size: 30px; position: relative; font-family: GothamBold; color: #626262; text-align: left; text-transform: uppercase; padding-left: 10px; }
+
+.home-banner { background-color: #111114; background-image: url("../images/adimari-banner-img.png"); background-position: center top; background-repeat: no-repeat; margin-bottom: 30px; background-size: 100% auto; height: 520px; padding: 10px 0 !important; margin-top: 30px; }
+
+/*======================= MY ACCOUNT =======================*/
+/*#edit-name--2 { border-radius: 0px; height: 30px;
+}
+
+#edit-pass--2,
+#edit-email--2 { border-radius: 0px; height: 29px;
+}
+
+#edit-submit--2 { height: 31px;
+}
+
+.combine { position: relative; .submit_btn { position: absolute; top: -1px; right: 68px; height: 29px; }
+}
+*/
+.front_content_holder { border-bottom: 7px solid #626262; border-top: 7px solid #626262; }
+
+.front_content_holder .subcontain { color: #626262; font-size: 22px; font-family: 'gotham-medium'; }
+
+.front_content_holder h1, .front_content_holder .nums { color: #626262; font-family: gotham-black; font-size: 30px; text-transform: uppercase; }
+
+.front_content_holder li { list-style: outside none none; display: inline-block; vertical-align: middle; }
+
+.subcontain .nums, .subcontain .descr { display: inline-block; vertical-align: middle; line-height: 23px; }
+
+.mybag, .sign_account { border: 1px solid #d0d0d0; display: inline-block; vertical-align: top; }
+
+.sign_account:hover .d_account_holder { display: block; }
+
+.footer { background-color: #ECECEC; padding-top: 40px; padding-bottom: 40px; }
+.footer h2 { font-size: 15px !important; color: #000 !important; font-weight: 700; line-height: normal; }
+.footer .footer-links > li { list-style: none; }
+.footer .footer-links > li > a { color: #000; text-decoration: none; text-transform: uppercase; font-size: 12px; }
+.footer .social-footer-links { overflow: hidden; margin-bottom: 40px; }
+.footer .social-footer-links li { float: left; }
+.footer .social-footer-links li a { display: inline-block; margin: 5px 5px; }
+
+.footer #edit-email { padding: 6px; width: 100%; height: 34px; }
+
+.footer #edit-newsletter-submit { background: #000 none repeat scroll 0% 0%; border: medium none !important; border-radius: 2px; color: #FFF; padding: 6px 17px; }
+
+.footer #edit-newsletter-submit:hover { background: #666 none repeat scroll 0% 0%; }
+
+.copyright { border-top: 1px solid #CCC; padding-top: 20px; padding-bottom: 20px; color: #4D4D4D; background: #ECECEC; }
+
+/*========================= PRODUCT VIEW ========================*/
+.product-list .product-view .prod-wrapper { height: 380px; overflow: hidden; display: block; margin-bottom: 10px; position: relative; width: auto; }
+.product-list .product-view .prod-img { height: 300px; overflow: hidden; position: relative; }
+.product-list .product-view .prod-img img { bottom: -9999px; left: -9999px; margin: auto; max-width: none; position: absolute; right: -9999px; top: -9999px; height: 330px; }
+.product-list .product-view .prod-details strong { display: block; color: #575757; line-height: 20px; }
+.product-list .product-view .prod-details p { color: #000; font-size: 18px; }
+
+/*============================== OTHER STYLES ======================= */
+/*input,
+textarea,
+.uneditable-input { width: 206px;
+}
+*/
+.d_account_holder { display: none; position: relative; }
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { display: inline-block; height: 32px; padding: 4px 6px; margin-bottom: 10px; font-size: 14px; line-height: 20px; color: #555; vertical-align: middle; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; width: 100%; }
+
+.d_account_holder { display: none; position: relative; }
+
+.d_account_holder #mask { background: #ffffff none repeat scroll 0 0; height: 1px; left: 0; position: absolute; top: 0; width: 100%; z-index: 32; }
+
+.d_account_sub_holder { background: #ffffff; border: 1px solid #d0d0d0; padding: 12px; position: absolute; z-index: 10; left: -143px; margin-top: 0px; }
+
+.cart { margin-top: 30px; text-align: right; }
+
+.d_account_sub_holder #user-login-form { margin-bottom: 5px !important; margin-top: 0px !important; }
+
+.d_account_sub_holder .d_form-wrapper .form-item { margin-top: 0; margin-bottom: 0; }
+
+.d_form-wrapper .form-item label { font-size: 12px; text-align: center; }
+
+label { display: block; margin-bottom: 5px; font-weight: normal; line-height: 20px; }
+
+.d_account_holder .d_form-wrapper input[type="text"], .d_account_holder .d_form-wrapper input[type="password"], .create_hold input[type="text"] { background: #cdcdcd; border: 2px solid #e5e5e5; border-radius: 0 !important; color: #222222; font-size: 13px !important; font-family: "Tahoma", Arial, Helvetica, sans-serif !important; }
+
+.d_account_sub_holder .combine { text-align: left; }
+
+.d_account_holder .combine_elem { display: inline-block; vertical-align: top; }
+
+.d_facebook_holder > label { font-size: 12px; text-align: center; }
+
+.d_facebook_holder .fb_hold { border-bottom: 1px solid #dddddd; margin-bottom: 10px; padding-bottom: 10px; }
+
+.d_facebook_holder .fb_hold > a { padding: 0; text-align: center; }
+
+.d_account_sub_holder { background: #ffffff; border: 1px solid #d0d0d0; padding: 12px; position: absolute; z-index: 10; left: -143px; margin-top: 0px; }
+
+.d_account_sub_holder .d_form-wrapper .form-item { margin-top: 0; margin-bottom: 0; }
+
+.d_account_holder .d_form-wrapper input[type="password"] { display: block; width: 100%; margin-bottom: 2px; }
+
+.d_account_holder .form-type-password { width: 86%; }
+
+.d_account_holder .submit_btn { margin-left: -4px; width: 14% !important; }
+
+.d_account_holder .form-type-password { width: 86%; }
+
+.d_account_holder .mobile_submit { background: #ffffff url("../images/btn_mobile.png") no-repeat scroll center center !important; border: 2px solid #e5e5e5 !important; border-left: none; height: 32px !important; width: 100% !important; }
+
+.create_hold > label { font-size: 12px; text-align: center; }
+
+.create_hold .form-item { margin: 0 !important; }
+
+.combine_elem a.form-submit { height: 32px !important; padding: 0 !important; width: 91% !important; display: block; }
+
+#user-register-form .form-actions, #user-login-form .form-actions { background: none; border-top: none; }
+
+.forgot_holder { margin: 0; padding: 0; text-align: left; }
+
+.forgot_holder a { color: #52a5c0 !important; text-align: left; padding: 0; font-size: 11px; }
+
+.sign_reg a { font-size: 12px; padding: 9px 12px; text-transform: uppercase; display: block; vertical-align: top; position: relative; cursor: pointer; }
+
+/*================  CART ==========================*/
+.main-content { padding-top: 50px; padding-bottom: 100px; }
+
+#shopping-cart { padding-top: 50px; }
+
+.remove { padding: 5px 10px; border: none; color: #fff; background-color: #FD4C4C; }
+
+.cart-img { width: 100px; height: auto; }
+
+.product-name { font-size: 23px; padding: 0px; margin: 0px; }
+
+.qty { width: 100px !important; }
+
+.option-list li { display: inline-block; }
+
+/*==================== MEDIA QUERY =======================*/
+@media screen and (max-width: 480px) { .product-view { width: 100% !important; } }
+
+/*# sourceMappingURL=custom.css.map */

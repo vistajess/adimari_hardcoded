@@ -1,0 +1,963 @@
+/*CSS*/
+
+body {
+    background-color: #FFFFFF;
+    height: 100%;
+    overflow-x: hidden;
+}
+/*Navigation Bar*/
+
+.logo {
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+ul.navbar-nav li {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.navbar-nav li {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    color: #40413c;
+    margin-top: 7px;
+}
+
+.navbar {
+    background-color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    font-family: GothamLight;
+}
+
+.borderL {
+    border-top: 1px solid !important;
+    border-bottom: 1px solid !important;
+    border-left: 1px solid !important;
+    border-right: 1px solid !important;
+}
+
+.borderR {
+    border-top: 1px solid !important;
+    border-bottom: 1px solid !important;
+    border-left: 1px solid !important;
+    border-right: 0px solid !important;
+}
+
+.navbar-nav > li:first-child {
+    margin-left: 160px;
+}
+
+.navbar-nav > li {
+    margin-right: 20px;
+}
+
+.navbar-nav > li:last-child {
+    margin-right: 0px;
+}
+
+.icon-bar {
+    background-color: #000;
+}
+
+a {
+    text-decoration: none;
+    position: absolute;
+    color: #000000;
+}
+
+a:focus {
+    color: #000000;
+}
+
+a:hover {
+    background-color: #B5AFAF !important;
+    color: #FFFFFF;
+}
+
+.banner {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 450px;
+}
+
+.card {
+    position: relative;
+}
+
+@font-face {
+    font-family: GothamBold;
+    src: url("../fonts/GothamBold.ttf");
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url("../fonts/GothamLight.ttf");
+}
+
+@font-face {
+    font-family: GothamMedium;
+    src: url("../fonts/GothamMedium.ttf");
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url("../fonts/GothamBook.ttf");
+}
+
+.section1 {
+    height: 500px
+}
+
+.section3 {
+    padding-bottom: 30px;
+}
+
+.banner-text {
+    font-size: 40px;
+    position: relative;
+    font-family: GothamBold;
+    float: right;
+    color: #FFFFFF;
+    margin-top: 143px;
+    text-align: center;
+}
+
+.banner-text2 {
+    font-size: 40px;
+    position: relative;
+    font-family: GothamBold;
+    float: right;
+    color: #000000;
+    text-align: center;
+    margin-top: 75px;
+    text-transform: uppercase;
+}
+
+.banner-subtext {
+    font-family: GothamLight;
+    font-size: 20px;
+    float: right;
+    color: #ABABAB;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.revised-contact {
+    font-family: GothamMedium;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+}
+
+hr {
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    padding: 0;
+    width: 75%;
+}
+
+.section-title {
+    font-size: 30px;
+    position: relative;
+    font-family: GothamBold;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.paragraphtext {
+    padding-top: 15px;
+    font-family: GothamBook;
+    font-size: 16px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.paragraphtext1 {
+    padding-top: 15px;
+    font-family: GothamBook;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.paragraphtext2 {
+    padding-top: 15px;
+    font-family: GothamBold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.paragraphtext3 {
+    padding-top: 15px;
+    font-family: GothamBook;
+    font-size: 20px;
+    text-align: center;
+}
+
+.steps-how {
+    font-size: 30px;
+    position: relative;
+    font-family: GothamBold;
+    color: #626262;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.steps {
+    font-size: 18px;
+    position: absolute;
+    font-family: GothamBold;
+    color: #626262;
+    text-align: left;
+    padding-left: 41px;
+    padding-top: 5px;
+}
+
+.steps-number {
+    font-size: 30px;
+    position: relative;
+    font-family: GothamBold;
+    color: #626262;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: #ececec !important;
+    font-family: GothamLight;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    clear: both;
+}
+
+.footer-text {
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: GothamLight;
+    padding-left: 50px;
+}
+
+.contact {
+    min-height: 300px;
+    font-family: GothamLight;
+    background-color: #ececec;
+    border-bottom: 1px dotted;
+}
+
+.contact-title {
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: GothamBold;
+    text-transform: uppercase;
+}
+
+.contact-text {
+    padding-left: 20px;
+    font-family: GothamLight;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+.btn-circle {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.margin-2x {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.txtbox {
+    width: 92%;
+    float: right;
+}
+
+.btn-black {
+    background-color: #000000 !important;
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+    font-family: "Times New Roman" times, serif;
+}
+
+.btn-black-1 {
+    background-color: #000000 !important;
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+    font-family: GothamLight;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+.btn-black-1:hover {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+    font-family: GothamLight;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+.imgadmari {
+    width: 250px;
+    height: 340px;
+    padding-left: 22px;
+}
+
+.imgfounder {
+    width: 505px;
+    padding-left: 17px;
+}
+
+.text-founder {
+    padding: 17px;
+    font-family: GothamLight;
+    text-align: justify;
+}
+/*992-1199*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .btn-black {
+        background-color: #000000 !important;
+        color: #fff !important;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+        -webkit-font-smoothing: antialiased;
+        font-family: "Times New Roman" times, serif;
+        margin-bottom: 5px;
+        margin-left: 71px;
+    }
+    .text-founder {
+        padding: 30px;
+        font-family: GothamLight;
+        text-align: justify;
+    }
+}
+/*768-991*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .paragraphtext {
+        padding-top: 15px;
+        font-family: GothamBook;
+        font-size: 15px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+    .banner-text {
+        font-size: 27px;
+        position: relative;
+        font-family: GothamBold;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 164px;
+        text-transform: uppercase;
+    }
+    .banner-text2 {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #000000;
+        text-align: center;
+        margin-top: 100px;
+        text-transform: uppercase;
+    }
+    .banner-subtext {
+        font-family: GothamLight;
+        font-size: 14px;
+        float: right;
+        color: #ABABAB;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .revised-contact {
+        font-family: GothamMedium;
+        font-size: 13px;
+    }
+    .btn-black-1 {
+        background-color: #000000 !important;
+        color: #fff !important;
+        margin-top: 25px;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+        -webkit-font-smoothing: antialiased;
+        font-family: GothamLight;
+        font-size: 15px;
+        padding: 10px 10px 10px 10px;
+        text-transform: uppercase;
+    }
+    .section-title {
+        font-size: 26px;
+        position: relative;
+        font-family: GothamBold;
+        color: #000000;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .paragraphtext3 {
+        padding-top: 15px;
+        font-family: GothamBook;
+        font-size: 20px;
+        text-align: center;
+    }
+    .paragraphtext1 {
+        padding-top: 12px;
+        font-family: GothamBook;
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .steps-how {
+        font-size: 26px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: left;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+    .steps-number {
+        font-size: 23px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: left;
+        padding-top: 2px;
+    }
+    .steps {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: left;
+        padding-left: 41px;
+        padding-top: 1px;
+    }
+    .footer-text {
+        padding-top: 5px;
+        font-size: 12px;
+        font-family: GothamLight;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .btn-black {
+        background-color: #000000 !important;
+        color: #fff !important;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+        -webkit-font-smoothing: antialiased;
+        font-family: "Times New Roman" times, serif;
+        margin-bottom: 5px;
+        margin-left: 51px;
+    }
+    .logo {
+        display: none;
+    }
+    ul.navbar-nav li {
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar-nav > li:first-child {
+        margin-left: 0px;
+    }
+    .borderL {
+        border-top: 1px solid !important;
+        border-bottom: 0px solid !important;
+        border-left: 0px solid !important;
+        border-right: 0px solid !important;
+    }
+    .borderR {
+        border-top: 1px solid !important;
+        border-bottom: 0px solid !important;
+        border-left: 0px solid !important;
+        border-right: 0px solid !important;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+    .lock {
+        margin-top: 10px;
+        width: 25px;
+        height: 30px;
+    }
+}
+/*481 - 767*/
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .paragraphtext {
+        padding-top: 15px;
+        font-family: GothamBook;
+        font-size: 15px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+    .banner-text {
+        font-size: 27px;
+        position: relative;
+        font-family: GothamBold;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 164px;
+        text-transform: uppercase;
+    }
+    .banner-text2 {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #000000;
+        text-align: center;
+        margin-top: 100px;
+        text-transform: uppercase;
+    }
+    .banner-subtext {
+        font-family: GothamLight;
+        font-size: 14px;
+        float: right;
+        color: #ABABAB;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .revised-contact {
+        font-family: GothamMedium;
+        font-size: 13px;
+    }
+    .btn-black-1 {
+        background-color: #000000 !important;
+        color: #fff !important;
+        margin-top: 25px;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+        -webkit-font-smoothing: antialiased;
+        font-family: GothamLight;
+        font-size: 15px;
+        padding: 10px 10px 10px 10px;
+        text-transform: uppercase;
+    }
+    .section-title {
+        font-size: 26px;
+        position: relative;
+        font-family: GothamBold;
+        color: #000000;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .paragraphtext3 {
+        padding-top: 15px;
+        font-family: GothamBook;
+        font-size: 16px;
+        text-align: center;
+    }
+    .paragraphtext1 {
+        padding-top: 12px;
+        font-family: GothamBook;
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .steps-how {
+        font-size: 26px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: center;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+    .steps-number {
+        font-size: 19px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: left;
+        padding-top: 11px;
+    }
+    .steps {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: justify;
+        padding-left: 41px;
+        padding-top: 12px;
+    }
+    .footer-text {
+        padding-top: 5px;
+        font-size: 12px;
+        font-family: GothamLight;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .btn-black {
+        background-color: #000000 !important;
+        color: #fff !important;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+        -webkit-font-smoothing: antialiased;
+        font-family: "Times New Roman" times, serif;
+        margin-bottom: 5px;
+        margin-left: 32px;
+    }
+    .logo {
+        height: 40px;
+        margin-top: 10px;
+        position: absolute;
+        padding-left: 15px;
+    }
+    ul.navbar-nav li {
+        padding: 0px;
+        margin: 0px;
+        border-top: 1px solid !important;
+        padding-left: 40px
+    }
+    .navbar-nav > li:first-child {
+        margin-left: 0px;
+    }
+    .borderL {
+        border-top: 1px solid !important;
+        border-bottom: 0px solid !important;
+        border-left: 0px solid !important;
+        border-right: 0px solid !important;
+    }
+    .borderR {
+        border-top: 1px solid !important;
+        border-bottom: 0px solid !important;
+        border-left: 0px solid !important;
+        border-right: 0px solid !important;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+    .lock {
+        margin-top: 10px;
+        width: 25px;
+        height: 30px;
+    }
+}
+/*321 - 480*/
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .paragraphtext {
+        padding-top: 15px;
+        font-family: GothamBook;
+        font-size: 13px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+    .banner-text {
+        font-size: 27px;
+        position: relative;
+        font-family: GothamBold;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 164px;
+        text-transform: uppercase;
+    }
+    .banner-text2 {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #000000;
+        text-align: center;
+        margin-top: 100px;
+        text-transform: uppercase;
+    }
+    .banner-subtext {
+        font-family: GothamLight;
+        font-size: 14px;
+        float: right;
+        color: #ABABAB;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .revised-contact {
+        font-family: GothamMedium;
+        font-size: 13px;
+    }
+    .btn-black-1 {
+        background-color: #000000 !important;
+        color: #fff !important;
+        margin-top: 25px;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+        -webkit-font-smoothing: antialiased;
+        font-family: GothamLight;
+        font-size: 15px;
+        padding: 10px 10px 10px 10px;
+        text-transform: uppercase;
+    }
+    .section-title {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #000000;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .paragraphtext3 {
+        padding-top: 15px;
+        font-family: GothamBook;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .paragraphtext1 {
+        padding-top: 12px;
+        font-family: GothamBook;
+        font-size: 11px;
+        text-align: justify;
+        text-transform: uppercase;
+    }
+    .steps-how {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: center;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+    .steps-number {
+        font-size: 13px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: left;
+        padding-top: 11px;
+    }
+    .steps {
+        font-size: 13px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: justify;
+        padding-left: 41px;
+        padding-top: 12px;
+    }
+    .footer-text {
+        padding-top: 5px;
+        font-size: 12px;
+        font-family: GothamLight;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .btn-black {
+        background-color: #000000 !important;
+        color: #fff !important;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+        -webkit-font-smoothing: antialiased;
+        font-family: "Times New Roman" times, serif;
+        margin-bottom: 5px;
+    }
+    .logo {
+        height: 40px;
+        margin-top: 10px;
+        position: absolute;
+        padding-left: 15px;
+    }
+    ul.navbar-nav li {
+        padding: 0px;
+        margin: 0px;
+        border-top: 1px solid !important;
+        padding-left: 40px
+    }
+    .navbar-nav > li:first-child {
+        margin-left: 0px;
+    }
+    .borderL {
+        border-top: 1px solid !important;
+        border-bottom: 0px solid !important;
+        border-left: 0px solid !important;
+        border-right: 0px solid !important;
+    }
+    .borderR {
+        border-top: 1px solid !important;
+        border-bottom: 0px solid !important;
+        border-left: 0px solid !important;
+        border-right: 0px solid !important;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+    .lock {
+        margin-top: 10px;
+        width: 25px;
+        height: 30px;
+    }
+}
+/*screen for 320*/
+
+@media only screen and (max-width: 320px) {
+    .paragraphtext {
+        padding-top: 15px;
+        font-family: GothamBook;
+        font-size: 13px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+    .banner-text {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 164px;
+        text-transform: uppercase;
+    }
+    .banner-text2 {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #000000;
+        text-align: center;
+        margin-top: 100px;
+        text-transform: uppercase;
+    }
+    .banner-subtext {
+        font-family: GothamLight;
+        font-size: 13px;
+        float: right;
+        color: #ABABAB;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
+    .revised-contact {
+        font-family: GothamMedium;
+        font-size: 13px;
+    }
+    .btn-black-1 {
+        background-color: #000000 !important;
+        color: #fff !important;
+        margin-top: 25px;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+        -webkit-font-smoothing: antialiased;
+        font-family: GothamLight;
+        font-size: 15px;
+        padding: 10px 10px 10px 10px;
+        text-transform: uppercase;
+    }
+    .section-title {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #000000;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .paragraphtext3 {
+        padding-top: 15px;
+        font-family: GothamBook;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .paragraphtext1 {
+        padding-top: 12px;
+        font-family: GothamBook;
+        font-size: 11px;
+        text-align: justify;
+        text-transform: uppercase;
+    }
+    .steps-how {
+        font-size: 20px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: center;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+    .steps-number {
+        font-size: 13px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: left;
+        padding-top: 11px;
+    }
+    .steps {
+        font-size: 13px;
+        position: relative;
+        font-family: GothamBold;
+        color: #626262;
+        text-align: justify;
+        padding-left: 41px;
+        padding-top: 12px;
+    }
+    .footer-text {
+        padding-top: 5px;
+        font-size: 12px;
+        font-family: GothamLight;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .btn-black {
+        background-color: #000000 !important;
+        color: #fff !important;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+        -webkit-font-smoothing: antialiased;
+        font-family: "Times New Roman" times, serif;
+        margin-bottom: 5px;
+    }
+    .logo {
+        height: 40px;
+        margin-top: 10px;
+        position: absolute;
+        padding-left: 15px;
+    }
+    ul.navbar-nav li {
+        padding: 0px;
+        margin: 0px;
+        border-top: 1px solid !important;
+        padding-left: 40px
+    }
+    .navbar-nav > li:first-child {
+        margin-left: 0px;
+    }
+    .borderL {
+        border-top: 1px solid !important;
+        border-bottom: 0px solid !important;
+        border-left: 0px solid !important;
+        border-right: 0px solid !important;
+    }
+    .borderR {
+        border-top: 1px solid !important;
+        border-bottom: 0px solid !important;
+        border-left: 0px solid !important;
+        border-right: 0px solid !important;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+    .lock {
+        margin-top: 10px;
+        width: 25px;
+        height: 30px;
+    }
+}
+/*============================================*/

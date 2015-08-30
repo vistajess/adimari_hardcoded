@@ -1,0 +1,79 @@
+<nav class="navbar navbar-inverse hidden-lg hidden-md hidden-sm">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img class="header-logo img-reponsive center-block" src="c_kylie_padilla/images/kylie-logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#/store" class="text-uppercase">store</a></li>
+                <li><a href="#/category/0/0" class="text-uppercase">collection</a></li>
+                <li><a href="#/category/0/0" class="text-uppercase">products</a></li>
+                <li><a href="#/about" class="text-uppercase">about</a></li>
+                <li><a href="#/checkout_options" class="text-uppercase">checkout</a></li>
+                <li><a href="http://business.onesupershop.com/one/page/{{store.name}}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="text-uppercase" class="text-uppercase">join my team</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="top-header">
+    <div class="social-bar hidden-xs">
+        <ul class="social-links">
+            <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa fa-google-plus-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="nav-container hidden-xs">
+        <span class="triangle"></span>
+        <div class="collapsible-navbar">
+            <img src="c_kylie_padilla/images/kylie-logo.png" class="img-responsive nav-logo center-block">
+            <div class="nav-links">
+                <h3 class="text-center">kylie nicole padilla</h3>
+                <ul class="links">
+                    <li><a href="#/store" class="text-uppercase">store</a></li>
+                    <li><a href="#/category/0/0" class="text-uppercase">collection</a></li>
+                    <li><a href="#/category/0/0" class="text-uppercase">products</a></li>
+                    <li><a href="#/about" class="text-uppercase">about</a></li>
+                    <li><a href="#/checkout_options" class="text-uppercase">checkout</a></li>
+                    <li><a href="http://business.onesupershop.com/one/page/{{store.name}}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="text-uppercase" class="text-uppercase">join my team</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="bannerModule" class="banner">
+        <!-- <img src="images/banner1.png
+" class="img-responsive banner-img"> -->
+    </div>
+</div>
+<script type="text/javascript">
+var banner = {
+    images: ['url("c_kylie_padilla/images/banner1.png") no-repeat 50% 0%/cover', 'url("c_kylie_padilla/images/banner2.png") no-repeat 50% 0%/cover', 'url("c_kylie_padilla/images/banner3.jpg") no-repeat 50% 0%/cover', 'url("c_kylie_padilla/images/banner4.jpg") no-repeat 50% 0%/cover'],
+
+    init: function() {
+        this.cacheDOM();
+        this.rotateImage();
+    },
+    cacheDOM: function() {
+        this.$el = $('#bannerModule');
+    },
+    rotateImage: function() {
+        var timer = 0;
+        setInterval(function() {
+
+            if (timer === this.images.length) {
+                timer = 0;
+            }
+            this.$el.css('background', this.images[timer]);
+            timer++;
+        }.bind(this), 5000);
+    },
+
+};
+banner.init();
+</script>

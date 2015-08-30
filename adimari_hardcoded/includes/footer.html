@@ -1,0 +1,84 @@
+<div class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-2">
+                <img class="footer-logo img-reponsive center-block" src="c_kylie_padilla/images/kylie-logo.png">
+            </div>
+            <div class="col-md-2 col-sm-2">
+                <h2 class="footer-header">navigations</h2>
+                <ul class="footer-link">
+                    <li><a href="#/store" class="text-uppercase">store</a></li>
+                    <li><a href="#/category/0/0" class="text-uppercase">collection</a></li>
+                    <li><a href="#/category/0/0" class="text-uppercase">products</a></li>
+                    <li><a href="#/about" class="text-uppercase">about</a></li>
+                    <li><a href="#/checkout_options" class="text-uppercase">checkout</a></li>
+                    <li><a href="http://business.onesupershop.com/one/page/{{store.name}}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="text-uppercase">join my team</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+                <h2 class="footer-header">collection</h2>
+                <!--                 <ul class="footer-link">
+                    <li><a href="" class="text-uppercase">store</a></li>
+                    <li><a href="" class="text-uppercase">collection</a></li>
+                    <li><a href="" class="text-uppercase">products</a></li>
+                    <li><a href="" class="text-uppercase">about</a></li>
+                    <li><a href="" class="text-uppercase">checkout</a></li>
+                    <li><a href="" class="text-uppercase">join my team</a></li>
+                </ul> -->
+                <ul class="footer-link">
+                    <li ng-repeat="category in store.categories | limitTo: 5">
+                        <a href="#/category/{{category.c_id}}" ng-click="routeThenScrollTop()">
+                            {{category.category_name}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+                <h2 class="footer-header">share my store</h2>
+                <ul class="footer-link">
+                    <li><a href="" class="text-uppercase"><i class="fa fa-facebook-square"></i> facebook</a></li>
+                    <li><a href="" class="text-uppercase"><i class="fa fa-twitter-square"></i> twitter</a></li>
+                    <li><a href="" class="text-uppercase"><i class="fa fa-instagram"></i> instagram</a></li>
+                    <li><a href="" class="text-uppercase"><i class="fa fa-google-plus-square"></i> google plus</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="address">
+                    <span class="footer-address">
+                            <i class="fa fa-thumb-tack"></i>
+                            <span >Unit 1106 The Center Point Bldg. Garnett                                     Rd. Cor. Julia Vargas, Ortigas Center, Pasig City</span>
+                    </span>
+                    <span class="footer-address">
+                            <i class="fa fa-thumb-tack"></i>
+                             <span >8th Floor, Aseana One Building, Bradco Ave.                      corner Roxas Boulevard, Aseana City, 
+            Paranaque City</span>
+                    </span>
+                    <span class="footer-contact">
+                            <i class="fa fa-phone"></i>
+                            <span>(632) 997-80-88</span>
+                    </span>
+                    <span class="footer-email">
+                            <i class="fa fa-envelope-o"></i>
+                            <span>
+                                info@onenetworkecommerce.com
+                            </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <div class="container">
+        <div class="col-md-6  col-sm-6 col-xs-12">
+            <h2 class="copyright-text">Copyright &copy; 2015 One Network E-commerce, Inc. | All rights reserved.</h2>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <ul class="payment-icons">
+                <li><span class="payment visa"></li>
+                    <li><span class="payment mastercard"></li>
+                    <li><span class="payment paypal"></li>
+                </ul>
+            </div>
+        </div>
+    </div>

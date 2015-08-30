@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admari</title>
+    <link rel="stylesheet" href="bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap3/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!--header-->
+    <div class="container">
+        <header class="row">
+            <nav class="navbar" role="navigation">
+                <img src="image/logo.png" class="logo">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="" href="#">SHOP</a>
+                        </li>
+                        <li>
+                            <a class="" href="#">ABOUT ADIMARI</a>
+                        </li>
+                        <li>
+                            <a class="" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="borderR">
+                            <a class="" href="#">MY ACCOUNT</a>
+                        </li>
+                        <li class="borderL">
+                            <a class="" href="#">MY BAG</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!--end of header-->
+    <!--content-->
+    <div class="content">
+        <div class="section1">
+            <div class="container" >
+                <img src="image/banner1.jpg" class="banner">
+                <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 banner-text2">
+                    we’d love to hear from you
+                    <p class="revised-contact">
+                      <i class="fa fa-phone"></i>&nbsp;&nbsp;+971 50 000000
+                    </p>
+                    <p class="revised-contact">
+                      <i class="fa fa-mobile-phone"></i>&nbsp;&nbsp;+971 50 000000
+                    </p>
+                    <p class="revised-contact">
+                        <i class="fa fa-envelope"></i>&nbsp;&nbsp;contact@adimari.com
+                    </p>
+                    <button type="button" class="btn btn-black-1">return to shopping</button>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 hidden-xs hidden-md hidden-sm">
+                        <hr style="float: right;" />
+                    </div>
+                    <div class="col-lg-4 col-xs-12 col-md-12 col-sm-12">
+                        <p class="section-title">shipping policy</p>
+                    </div>
+                    <div class="col-lg-4 hidden-xs hidden-md hidden-sm">
+                        <hr style="float: left;" />
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <p class="paragraphtext1">
+                    Our shipping policy isn’t complicated.<br/>You only need to know 2 things
+                    </p>
+                    <div class="col-lg-6">
+                       <p class="paragraphtext2">
+                           IT'S FREE
+                       </p>
+                       <p class="paragraphtext1">
+                            Yes, it’s that simple.<br/> 
+                            No matter where<br/> 
+                            you live in the world,<br/>
+                            your order always<br/> 
+                            ships free of any charges.<br/>
+                       </p> 
+                    </div> 
+                    <div class="col-lg-6">
+                       <p class="paragraphtext2">
+                           IT'S FREE
+                       </p>
+                       <p class="paragraphtext1">
+                           That’s how long it will<br/> 
+                            take for you to receive the<br/>
+                            best fitting clothes yo<br/>
+                            u’ve ever worn.
+                       </p> 
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="section3">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 hidden-xs hidden-md hidden-sm">
+                        <hr style="float: right;" />
+                    </div>
+                    <div class="col-lg-4 col-xs-12 col-md-12 col-sm-12">
+                        <p class="section-title">online payment</p>
+                    </div>
+                    <div class="col-lg-4 hidden-xs hidden-md hidden-sm">
+                        <hr style="float: left;" />
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <p class="paragraphtext1">
+                        adimari accepts the following forms of payment:
+                    </p>
+                    <center><img src="image/card.jpg" class="card"></center>
+                    <center><img src="image/lock.jpg" class="lock"></center>
+                    <p class="paragraphtext3">
+                        Black Lapel takes every precaution to fully protect your information.<br/> 
+                        We do not and will never sell your information to anyone for any reason.<br/> 
+                        We use the highest form of data encryption for every transaction conducted <br/>
+                        on our website. If you have any questions about the security of your online payment, <br/>
+                        don’t hesitate to ask.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section4">
+            <div class="container">
+                <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
+                    <hr style="width: 100% !important; border-top: 15px solid !important; color: #626262 !important;" />
+                </div>
+                <div class="col-lg-2 col-xs-12 col-sm-2 col-md-2">
+                    <p class="steps-how">
+                        how it works
+                    </p>
+                </div>
+                <div class="col-lg-2 col-xs-12 col-sm-2 col-md-2">
+                    <p class="col-lg-1 col-xs-1 steps-number">
+                        1
+                    </p>
+                    <p class="steps">
+                        Choose thats suit your classy taste
+                    </p>
+                </div>
+                <div class="col-lg-3 col-xs-12 col-sm-3 col-md-3">
+                    <p class="col-lg-1 col-xs-1 steps-number">
+                        2
+                    </p>
+                    <p class="steps">
+                        Customize it according to your
+                        <br/> preference
+                    </p>
+                </div>
+                <div class="col-lg-2 col-xs-12 col-sm-2 col-md-2">
+                    <p class="col-lg-1 col-xs-1 steps-number">
+                        3
+                    </p>
+                    <p class="steps">
+                        Sign in or login using your facebook
+                    </p>
+                </div>
+                <div class="col-lg-3 col-xs-12 col-sm-3 col-md-3">
+                    <p class="col-lg-1 col-xs-1 steps-number">
+                        4
+                    </p>
+                    <p class="steps">
+                        Fill in delivery
+                        <br/> details to deliver
+                        <br/> the perfect suit
+                    </p>
+                </div>
+                <div class="col-lg-12 col-lg-12 col-xs-12 col-sm-12 col-md-12">
+                    <hr style="width: 100% !important; border-top: 15px solid !important; color: #626262 !important;" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of content-->
+    <!--contacts-->
+    <div class="contact">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="col-lg-3 col-xs-12">
+                    <p class="contact-title">
+                        about adimari
+                    </p>
+                    <p class="contact-text">
+                        our story
+                    </p>
+                    <p class="contact-text">
+                        how it works
+                    </p>
+                    <p class="contact-text">
+                        customize me
+                    </p>
+                </div>
+                <div class="col-lg-3 col-xs-12">
+                    <p class="contact-title">
+                        adimari shop
+                    </p>
+                    <p class="contact-text">
+                        suits
+                    </p>
+                    <p class="contact-text">
+                        shirts
+                    </p>
+                    <p class="contact-text">
+                        paints
+                    </p>
+                    <p class="contact-text">
+                        accessories
+                    </p>
+                </div>
+                <div class="col-lg-3 col-xs-12">
+                    <p class="contact-title">
+                        help
+                    </p>
+                    <p class="contact-text">
+                        contact us
+                    </p>
+                    <p class="contact-text">
+                        shipping & delivery
+                    </p>
+                    <p class="contact-text">
+                        alternates & returns
+                    </p>
+                    <p class="contact-text">
+                        measurements & fits
+                    </p>
+                    <p class="contact-text">
+                        payments & inquiries
+                    </p>
+                </div>
+                <div class="col-lg-3 col-xs-12">
+                    <p class="contact-title">
+                        follow us
+                    </p>
+                    <a class="col-xs-1 btn-circle" style="margin-left: 20px;">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="col-xs-1 btn-circle">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a class="col-xs-1 btn-circle">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a class="col-xs-1 btn-circle">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <p class="contact-title" style="margin-top: 30px">
+                        subscribe to our newsletters
+                    </p>
+                    <input type="text" name="" id="input" class="form-control txtbox" placeholder="user@example.com"/>
+                    <button type="button" class="btn btn-black btn-small margin-2x">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of container-->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <p class="col-lg-12 col-xs-12 footer-text">
+                &copy;2015 Adimari. Proud to be in Dubai.
+            </p>
+        </div>
+    </div>
+    <!--end of footer-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap3/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
