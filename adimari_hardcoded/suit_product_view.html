@@ -118,7 +118,7 @@
         </nav>
     </div>
     <!--  BODY CONTENT  -->
-    <div class="product-view-content">
+    <div id="productViewModule" class="product-view-content">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 product-image-panel">
@@ -134,7 +134,7 @@
                                 <img class="img-responsive sm-image" src="images/img1_3.jpg">
                             </li>
                             <li>
-                                <img class="img-responsive sm-image" src="images/img1_3.jpg">
+                                <img class="img-responsive sm-image" src="images/npants.png">
                             </li>
                         </ul>
                     </div>
@@ -220,19 +220,125 @@
                                 <div class="step2-vent">
                                     <label class="option-title">Vent Style : <span>*</span></label>
                                     <div class="col-md-6">
-                                        <input type="radio" name="label radio"><span class="text-uppercase">center</span>
+                                        <input type="radio" name="vent"><span class="text-uppercase">center</span>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="radio" name="label radio"> <span class="text-uppercase">side</span>
+                                        <input type="radio" name="vent"> <span class="text-uppercase">side</span>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="radio" name="label radio"><span class="text-uppercase">none
+                                        <input type="radio" name="vent"><span class="text-uppercase">none
 </span>
                                     </div>
                                 </div>
                             </div>
                             <!--  END OF STEP 2 -->
+                            <!--  START OF STEP 3 -->
+                            <div class="step3">
+                                <h3 class="step-header text-uppercase">details</h3>
+                                <span class="step-status pull-right">3 steps missing</span>
+                                <div class="step3-pocket">
+                                    <label class="option-title">Pocket style : <span>*</span></label>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="pocket" class="radio"><span class="text-uppercase">standard</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="pocket" class="radio"> <span class="text-uppercase">hacking</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="pocket" class="radio"><span class="text-uppercase">patch
+</span>
+                                    </div>
+                                </div>
+                                <div class="step3-ticket">
+                                    <label class="option-title">ticket pocket: <span>*</span></label>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="ticket" class="radio"><span class="text-uppercase">no</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="ticket" class="radio"> <span class="text-uppercase">yes</span>
+                                    </div>
+                                </div>
+                                <div class="step3-buttonhole">
+                                    <label class="option-title">buttonhole color: <span>*</span></label>
+                                    <ul class="color-list">
+                                        <li><span data-color="#322723" class="box brown"></span></li>
+                                        <li><span data-color="#891D1D" class="box red"></span></li>
+                                        <li><span data-color="#000000" class="box black"></span></li>
+                                        <li><span data-color="#FFFFFF" class="box white"></span></li>
+                                        <li><span data-color="#83B7DE" class="box blue"></span></li>
+                                        <li><span data-color="#171C39" class="box navy"></span></li>
+                                        <li><span data-color="#FDDE61" class="box yellow"></span></li>
+                                        <li><span data-color="#8D6B9E" class="box lavender"></span></li>
+                                        <li><span data-color="#0D5D2A" class="box green"></span></li>
+                                        <li><span data-color="#DE4C03" class="box orange"></span></li>
+                                        <li><span data-color="#808080" class="box gray"></span></li>
+                                        <li><span data-color="#2D1350" class="box purple"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--  END OF STEP 3 -->
+                            <!-- START OF STEP 4 -->
+                            <div class="step4">
+                                <h3 class="step-header text-uppercase">pants</h3>
+                                <span class="step-status pull-right">3 steps missing</span>
+                                <div class="step4-front-style">
+                                    <label class="option-title">Front style: <span>*</span></label>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="front_style" class="radio"><span class="text-uppercase">flat front</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="front_style" class="radio"> <span class="text-uppercase">1-pleat</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="front_style" class="radio"> <span class="text-uppercase">2-pleat</span>
+                                    </div>
+                                </div>
+                                <div class="step4-cuff">
+                                    <label class="option-title">Cuff <span>*</span></label>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="cuff" class="radio"><span class="text-uppercase">no</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="radio" name="cuff" class="radio"> <span class="text-uppercase">yes</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END OF STEP 4 -->
                         </form>
+                    </div>
+                </div>
+            </div>
+            <!--  LOWER PORTION -->
+            <div class="row product-overview">
+                <div class="col-md-6">
+                    <div class="overview-box" style="min-height: 360px;">
+                        <span><img src="images/fabric1.jpg" alt=""></span>
+                        <h4 class="text-uppercase prod-name">Fabric</h4>
+                        <p class="prod-desc">Our fabrics are sourced from the best mills in the world. Dormeuil, Scabal, Zegna, Vitale Barberis and Ariston are just a few of the luxury cloths we have in our arsenal.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="overview-box" style="min-height: 360px;">
+                        <span><img src="images/fabric2.jpg" alt=""></span>
+                        <h4 class="text-uppercase prod-name">form and fit</h4>
+                        <p class="prod-desc">We are committed to providing you with the best fitting garment possible. Each suit is hand-cut according to your precise measurements, body type and preferences, allowing for both excellent fit and mobility.</p>
+                        <p class="prod-desc">
+                            We use the latest 3-D technology, along with tried and true hand measurements to ensure the most comfortable tailored fit available.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="overview-box" style="min-height: 360px;">
+                        <span><img src="images/fabric3.jpg" alt=""></span>
+                        <h4 class="text-uppercase prod-name">custom options</h4>
+                        <p class="prod-desc">Every element of your suite (seen or unseen) can be customized to your preference. From lapel type and width to buttons, vents , pockets, piping, and shape. One thing is sure; no one else will be walking down the street with a suit just like yours.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="overview-box" style="min-height: 360px;">
+                        <span><img src="images/fabric4.jpg" alt=""></span>
+                        <h4 class="text-uppercase prod-name">garment care</h4>
+                        <p class="prod-desc">To get the most longevity out of your suit, there are 3 essential tools : a suit brush , a proper hanger and a steamer. To preserve the integrity of the fabric, limit dry-cleaning to once a year. For stains, use a spot cleaner. Refrain from storing items (cellphone,keys,etc.) in the outer pockets of your jacket to preserve shape.</p>
                     </div>
                 </div>
             </div>
@@ -305,6 +411,7 @@
 </body>
 <script src="bootstrap3/js/jquery-2.1.3.js"></script>
 <script src="bootstrap3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/product_view.js"></script>
 <script type="text/javascript">
 $(window).load(function() {
     // Animate loader off screen 
