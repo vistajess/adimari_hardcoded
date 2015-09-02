@@ -796,6 +796,7 @@ label {
         }
         .product-options {
             border-top: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
             padding: 18px 0px;
             overflow: hidden;
             .note {
@@ -819,11 +820,6 @@ label {
                     width: 60%;
                     border-radius: 0px;
                 }
-                .color-list {
-                    li {
-                        display: inline-block;
-                    }
-                }
                 input[type=radio] {
                     display: inline-block;
                     margin: 10px 5px;
@@ -831,8 +827,43 @@ label {
                     -moz-appearance: checkbox;
                     -ms-appearance: checkbox;
                 }
+                .step2-lining,
+                .step2-label,
+                .step2-button,
+                .step2-vent {
+                    position: relative;
+                    clear: both;
+                    overflow: hidden;
+                }
+            }
+            .step3 {
+                display: block;
+                clear: both;
+                border-top: 1px solid #CCC;
+            }
+            .step3-pocket,
+            .step3-ticket,
+            .step3-buttonhole {
+                display: block;
+                clear: both;
+            }
+            .step4 {
+                display: block;
+                clear: both;
+                border-top: 1px solid #CCC;
+            }
+            .step4-front-style,
+            .step4-cuff {
+                display: block;
+                clear: both;
             }
         }
+    }
+}
+
+.color-list {
+    li {
+        display: inline-block;
     }
 }
 
@@ -887,7 +918,7 @@ label {
     background: #808080;
 }
 
-.puple {
+.purple {
     background: #2D1350;
 }
 
@@ -919,6 +950,31 @@ label {
         display: inline-block;
         position: relative;
         top: 8px;
+    }
+}
+
+.product-overview {
+    padding: 30px 0px;
+    .overview-box {
+        img {
+            width: 100%;
+        }
+    }
+    .prod-name {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #999999;
+        padding-bottom: 15px;
+        font-size: 13px;
+        line-height: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .prod-desc {
+        margin-bottom: 20px;
+        font-size: 13px;
+        font-style: normal;
+        line-height: 18px;
     }
 }
 
