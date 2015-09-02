@@ -766,6 +766,7 @@ label {
 .product-view-content {
     .product-image-panel {
         .main-image {
+            height: 400px;
             .big-image {}
         }
         .thumbnails-container {
@@ -775,7 +776,10 @@ label {
                 .sm-image {
                     width: 150px;
                     height: auto;
-                    border: 2px solid #000;
+                    border: 2px solid #fff;
+                }
+                .active-thumbnail {
+                    border-color: #000 !important;
                 }
             }
         }
@@ -806,9 +810,9 @@ label {
             .radio {
                 display: inline-block;
                 margin: 10px;
-                -webkit-appearance: checkbox;
+                /*                -webkit-appearance: checkbox;
                 -moz-appearance: checkbox;
-                -ms-appearance: checkbox;
+                -ms-appearance: checkbox;*/
             }
             .step1 {
                 overflow: hidden;
@@ -823,9 +827,10 @@ label {
                 input[type=radio] {
                     display: inline-block;
                     margin: 10px 5px;
-                    -webkit-appearance: checkbox;
+                    /*                    -webkit-appearance: checkbox;
                     -moz-appearance: checkbox;
                     -ms-appearance: checkbox;
+*/
                 }
                 .step2-lining,
                 .step2-label,
