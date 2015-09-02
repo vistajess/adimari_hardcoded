@@ -196,6 +196,58 @@ label { display: block; margin-bottom: 5px; font-weight: normal; line-height: 20
 
 .option-list li { display: inline-block; }
 
+/*======================== SUIT PRODUCT VIEW =====================*/
+.product-view-content .product-image-panel .thumbnails-container { padding: 20px 0px; }
+.product-view-content .product-image-panel .thumbnails-container li { display: inline-block; }
+.product-view-content .product-image-panel .thumbnails-container li .sm-image { width: 150px; height: auto; border: 2px solid #000; }
+.product-view-content .product-info-panel .product-details h3 { margin-bottom: 10px; font-weight: lighter; font-size: 18px; }
+.product-view-content .product-info-panel .product-details strong { font-size: 19px; display: block; padding-bottom: 15px; }
+.product-view-content .product-info-panel .product-options { border-top: 1px solid #CCC; padding: 18px 0px; overflow: hidden; }
+.product-view-content .product-info-panel .product-options .note { color: #F00; display: block; }
+.product-view-content .product-info-panel .product-options .radio { display: inline-block; margin: 10px; -webkit-appearance: checkbox; -moz-appearance: checkbox; -ms-appearance: checkbox; }
+.product-view-content .product-info-panel .product-options .step1 { overflow: hidden; }
+.product-view-content .product-info-panel .product-options .step2 { border-top: 1px solid #CCC; }
+.product-view-content .product-info-panel .product-options .step2 select { border: 1px solid #888; width: 60%; border-radius: 0px; }
+.product-view-content .product-info-panel .product-options .step2 .color-list li { display: inline-block; }
+.product-view-content .product-info-panel .product-options .step2 input[type=radio] { display: inline-block; margin: 10px 5px; -webkit-appearance: checkbox; -moz-appearance: checkbox; -ms-appearance: checkbox; }
+
+.box { height: 50px; width: 50px; border: 1px solid #8C8A8A; display: inline-block; }
+
+.brown { background: #322723; }
+
+.red { background: #891D1D; }
+
+.black { background: #000; }
+
+.white { background: #fff; }
+
+.blue { background: #83B7DE; }
+
+.navy { background: #171C39; }
+
+.yellow { background: #FDDE61; }
+
+.lavender { background: #8D6B9E; }
+
+.green { background: #0D5D2A; }
+
+.orange { background: #DE4C03; }
+
+.gray { background: #808080; }
+
+.puple { background: #2D1350; }
+
+.step-header { display: inline-block; }
+
+.step-status { color: #F00; padding-top: 25px; }
+
+.txt-steps-missing { color: #999; }
+
+.txt-steps-completed { color: #00B800; }
+
+.option-title { display: block; margin-bottom: 8px; font-size: 12px; line-height: 10px; }
+.option-title span { color: #F00; font-size: 25px; display: inline-block; position: relative; top: 8px; }
+
 /*==================== MEDIA QUERY =======================*/
 @media screen and (max-width: 480px) { .product-view { width: 100% !important; } }
 
