@@ -22,7 +22,6 @@
             img.removeClass('active-thumbnail');
             event.target.classList.add('active-thumbnail');
             this.$main_img.attr('src', thumbnail_link);
-
         },
 
     }
